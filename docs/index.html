@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>The Kanji</title>
+  <meta name="description" content="The Kanji support and privacy policy pages.">
+  <style>
+    :root {
+      color-scheme: light dark;
+      --bg: #faf8f3;
+      --text: #1f2933;
+      --muted: #5f6b7a;
+      --link: #0f6b8f;
+      --border: #d7d2c8;
+      --panel: #ffffff;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #101418;
+        --text: #edf2f7;
+        --muted: #b6c2cf;
+        --link: #7dd3fc;
+        --border: #34404c;
+        --panel: #161c22;
+      }
+    }
+
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.65;
+    }
+
+    main {
+      width: min(760px, calc(100% - 32px));
+      margin: 0 auto;
+      padding: 56px 0;
+    }
+
+    h1 {
+      margin: 0 0 12px;
+      font-size: 2rem;
+      line-height: 1.2;
+    }
+
+    p {
+      margin: 0 0 24px;
+      color: var(--muted);
+    }
+
+    ul {
+      display: grid;
+      gap: 12px;
+      padding: 0;
+      list-style: none;
+    }
+
+    a {
+      color: var(--link);
+      text-decoration-thickness: 0.08em;
+      text-underline-offset: 0.18em;
+    }
+
+    li a {
+      display: block;
+      padding: 16px 18px;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      background: var(--panel);
+      font-weight: 600;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>The Kanji</h1>
+    <p>Support and privacy information for The Kanji.</p>
+    <ul>
+      <li><a href="./privacy/">Privacy Policy</a></li>
+      <li><a href="./support/">Support</a></li>
+    </ul>
+  </main>
+</body>
+</html>
